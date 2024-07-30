@@ -18,7 +18,11 @@ class App extends React.Component {
                         <img src="logoindex.png" alt="Logo" />
                     </a>
                     <button className="btn btn-primary btn-small ml-3">Button Text</button>
-                    <button className="btn btn-outline-primary btn-small ml-auto btn-margin-right">Login</button>
+                    <div className="d-flex justify-content-end flex-grow-1">
+                        <button className="btn btn-outline-primary btn-margin-right">
+                            <i className="fa-solid fa-right-to-bracket"></i> Login
+                        </button>
+                    </div>
                 </nav>
 
                 <div 
@@ -35,7 +39,6 @@ class App extends React.Component {
                 </div>
               
             </div>
-            
         );
     }
 }
